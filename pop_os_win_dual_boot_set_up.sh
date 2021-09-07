@@ -1,6 +1,6 @@
 #!/bin/bash
 
-suod apt-get update && sudo apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install grub-efi grub-customizer grub2-common -y
 
 sudo grub-install
